@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, withRouter } from 'react-router-dom';
 import { getDomain } from '../../utils';
-import distanceInWordsToNow from 'date-fns/distance_in_words_to_now'
+//import distanceInWordsToNow from 'date-fns/distance_in_words_to_now'
+import distanceInWordsToNow  from 'date-fns/formatDistanceToNow'
 import { FirebaseContext } from "../../firebase";
 
 function LinkItem({ link, index, showCount, history }) {

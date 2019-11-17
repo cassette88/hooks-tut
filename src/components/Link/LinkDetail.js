@@ -1,7 +1,9 @@
 import React from "react";
 import { FirebaseContext } from "../../firebase";
 import LinkItem from './LinkItem';
-import distanceInWordsToNow  from 'date-fns/distance_in_words_to_now'
+//import distanceInWordsToNow  from 'date-fns/distance_in_words_to_now'
+import distanceInWordsToNow  from 'date-fns/formatDistanceToNow'
+
 
 function LinkDetail(props) {
   const { firebase, user } = React.useContext(FirebaseContext);
